@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertriary-color: #39a6b2;
+}
+
 .hero {
     background-position:bottom;
     height: auto;
@@ -6,9 +12,9 @@
 }
 
 .page-title{
-    color: #fce138;
+    color: var(--primary-color);
      display: inline-block;
-     border-bottom: 4px solid #fce138;
+     border-bottom: 4px solid var(--primary-color);
      padding: 0 80px 15px 80px;
      font-weight: normal;
      font-size: 42px;
@@ -20,7 +26,7 @@
     width: 80%;
     margin:0 auto 30px auto;
     text-align: center;
-    color: #024e76;
+    color: var(--secondary-color);
 }
 
 .secondary-content h3{
@@ -40,7 +46,7 @@
 }
 
 .secondary-content ul li{
-    color: #39a6b2;
+    color: var(--tertriary-color);
     margin: 10px 0 10px 0;
     text-align: left;
 }
